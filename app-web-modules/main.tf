@@ -9,4 +9,5 @@ module "instance" {
   vpc_security_group_ids = var.vpc_security_group_ids
   identity               = var.identity
   web_count              = var.web_count
+  instance_type          = var.instance_type
 }
