@@ -3,6 +3,7 @@ provider "aws" {
 
 module "instance" {
   source = "app.terraform.io/alex-garnet/instance/aws"
+  version = "1.0.1"
 
   ami                    = var.ami
   subnet_id              = var.subnet_id
