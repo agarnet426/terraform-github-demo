@@ -2,7 +2,7 @@ provider "aws" {
 }
 
 module "server" {
-  source = "app.terraform.io/agarnet426/instance/aws/1.0.0"
+  source = "app.terraform.io/agarnet426/instance/aws"
 
   ami                    = var.ami
   subnet_id              = var.subnet_id
