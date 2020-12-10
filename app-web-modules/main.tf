@@ -1,7 +1,7 @@
 provider "aws" {
 }
 
-module "server" {
+module "instance" {
   source = "app.terraform.io/agarnet426/instance/aws"
 
   ami                    = var.ami
